@@ -1,0 +1,35 @@
+ul {
+    list-style: none;
+    padding: 10px 0;
+    background-image: url(./frame.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: calc(328px + (1065px - 328px) * ((100vw - 375px) / (1280 - 375)));
+       
+    width: calc(280px + (949px - 280px) * ((100vw - 375px) / (1280 - 375)));
+    height: 438px;
+    top: 189px;
+    left: 184px;
+    gap: 24px;
+}
+
+li {
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+    width: 949px;
+}
+
+button {
+    width: 424px;
+    height: 61px;
+    top: 661px;
+    left: 428px;
+    padding: 20px 0px;
+    gap: 10px;
+    border-radius: 12px;
+    background-color: #6E3ABA;
+    color: white;
+    width: calc(328px + (424px - 328px) * ((100vw - 375px) / (1280 - 375)));
+}
+
+
